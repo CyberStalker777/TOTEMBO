@@ -1,0 +1,238 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+
+    .nav__content{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section3__cards{
+        flex-direction: column;
+    }
+
+    .nav__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav__content_list{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section1__card img{
+        width: 50%;
+    }
+
+    .item img{
+        width: 50%;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .p1{
+        font-size: 11px;
+    }
+
+    .p2{
+        font-size: 11px;
+    }
+    .p3{
+        font-size: 11px;
+    }
+
+    .section1__card{
+        gap: 15px;
+    }
+
+    .section3__card_desc h3{
+        font-size: 20px;
+        max-width: 350px;
+    }
+    .section3__card_desc p{
+        font-size: 16px;
+        max-width: 350px;
+    }
+
+
+    .section1__card::before{
+        padding: 5px 30px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+
+    .section1__card{
+        padding: 20px;
+    }
+
+    .p1{
+        font-size: 9px;
+    }
+
+    .p2{
+        font-size: 9px;
+    }
+    .p3{
+        font-size: 9px;
+    }
+
+    .footer_content,
+    .footer_contents{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .footer__contents::after,
+    .footer__good::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: white;
+    }
+
+    .rekvizit a, 
+    .numbers,
+    .contacts p{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__goods_link a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__list_link a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socials{
+        text-align: center;
+    }
+
+    .media{
+        justify-content: center;
+    }
+
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+
+    .section2 h1{
+        font-size: 25px;
+    }
+
+    .nav__list{
+        gap: 20px;
+    }
+
+    .a1{
+        font-size: 20px;
+    }
+
+    .section3 h2{
+        font-size: 25px;
+    }
+
+     .section3__card::before{
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+
+
+    .right_box__date p{
+        font-size: 11px;
+    }
+
+    .section1__cards{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section3__card{
+        height: 365px;
+    }
+
+    .pp{
+        margin-bottom: 20px;
+    }
+
+    .ppp{
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width: 576px){
+    .container{
+        max-width: 100%;
+    }
+
+    .section3__card::before{
+        font-size: 10px;
+        padding: 5px 30px;
+    }
+
+    .address{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .numbers a{
+        font-size: 14px;
+    }
+
+    .socials{
+        font-size: 14px;
+    }
+
+    .mail{
+        font-size: 14px;
+    }
+
+    .section3__card_desc h3{
+        font-size: 12px;
+        max-width: 200px;
+    }
+
+    .item::before{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .pp{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .ppp{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .section3__card_desc p{
+        font-size: 10px;
+        max-width: 200px;
+    }
+}
