@@ -405,6 +405,7 @@ body{
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    position: relative;
 }
 
 .section2__box_desc{
